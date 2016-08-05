@@ -34,7 +34,7 @@ def start_calendar():
 			calendar[date]=update
 			print "Update made."
 			print calendar
-		elif user_choice=="A":
+    elif user_choice=="A":
     	event=raw_input("Enter event: ")
       date=raw_input("Enter date (MM/DD/YYYY)")
       	if (len(date)>10 or int(date[6:])<int(strftime("%Y"))):
@@ -52,7 +52,7 @@ def start_calendar():
 		elif user_input=="D":
        if len(calendar.keys())<0:
              print "Calendar is empty"
-       else: 
+   else: 
              event=raw_input("What event?")
              		for date in calendar.keys():
              			if event==calendar[date]:
