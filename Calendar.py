@@ -61,7 +61,7 @@ def start_calendar():
              				print calendar
              			else: 
              print "Incorrect event was specified"
-		elif user_input=="X":
+    elif user_input=="X":
    		start=False
     else:
       print "Invalid command was entered."
