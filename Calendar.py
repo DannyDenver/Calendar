@@ -52,7 +52,7 @@ def start_calendar():
    elif user_input=="D":
        if len(calendar.keys())<0:
              print "Calendar is empty"
-   else: 
+   	else: 
              event=raw_input("What event?")
              		for date in calendar.keys():
              			if event==calendar[date]:
