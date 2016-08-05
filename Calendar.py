@@ -49,7 +49,7 @@ def start_calendar():
           calendar[date]=event
          	print "Event successfully added."
           print calendar
-		elif user_input=="D":
+   elif user_input=="D":
        if len(calendar.keys())<0:
              print "Calendar is empty"
    else: 
